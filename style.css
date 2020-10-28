@@ -1,0 +1,91 @@
+﻿html,body {
+	height: 100%;
+	width: 100%;
+}
+.navbar {
+	background-color: dodgerblue;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+.navbar-default .navbar-nav li a{
+	color: #ffffff;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav  {
+	color: rgb(251, 255, 0);
+}
+#home {
+	background: url(img/innovation-technology.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+.landing-text h1 {
+	font-size: 500%;
+	font-weight: 700;
+	color: rgb(255, 255, 255);
+	
+}
+.landing-text h2 {
+	font-size: 200%;
+	font-weight: 500;
+	color: rgb(255, 251, 0);
+}
+.landing-text h3 {
+	font-size: 200%;
+	font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+.padding {
+	padding: 80px 0;	
+}
+.padding {
+	width: 100%;
+}
+
+#fixed {
+	background: url(img/back.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+}
+footer {
+	width: 100%;
+	background-color: dodgerblue;
+	padding: 1% 5% 1% 5%;
+	color: rgb(255, 255, 255);
+}
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+}
+.icon {
+	max-width: 200px;
+}
+@media (max-width: 768px) {
+	.landing-text h1 {
+		font-size: 300px;	
+	}
+	.landing-text h2 {
+		font-size: 100px;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+
+	}
+}
+
